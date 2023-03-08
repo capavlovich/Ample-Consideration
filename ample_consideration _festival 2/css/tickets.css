@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+ }
+ 
+ body {
+   min-height: 300vh;
+   width: 100%;
+ }
+ 
+ /* by setting the min-height, not just height that 
+ removed the sqiished proportion of your images.  */
+ 
+
+ header {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ nav {
+  display: flex;
+  flex-direction: row;
+  gap: 11.5em;
+  padding-left: 5em;
+}

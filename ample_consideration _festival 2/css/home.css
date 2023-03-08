@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+ }
+ 
+ body {
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(/img/community2color.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   
+
+ }
+ 
+ /* by setting the min-height, not just height that removed the sqiished proportion of your images.  */
+ 
+header {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ nav {
+  display: flex;
+  flex-direction: row;
+  gap: 11.5em;
+  padding-left: 5em;
+}
+ 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding-top:-0em;
+  padding-left: 0em;
+   }
+
+.paraone {
+  color: #FFFFFF;
+  column-count: 2;
+  font: 1.563em Broadsheet;
+  flex: row;
+  top: -5em;
+  padding-top: 2em;
+  padding-left:6em; 
+  padding-right: 30em;
+  color: #FFFFFF;
+  text-align: justify;
+  column-gap: 30px;
+  column-width: 4em;
+  column-rule-style: double;
+  column-rule-width: .25em;
+}
+
+/* will not go into columns */
+
+/* .placed {
+  background-image: url("img/people_placed.png");
+  background-size: cover; 
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  padding-left: 70em;
+  height: 500px;
+} */
+/* #placing {
+  background-image: url("img/people_placed.png");
+  background-repeat: no-repeat; 
+  /* padding-left: 70em; */
+
+
+/* .paratwo {
+    color: #FFFFFF;
+    top: 216px;
+    left: 364px;
+    width: 240px;
+    height: 485px;
+    text-align: justify;
+  font: 25px/30px Broadsheet;
+} */
+  /* .img1 {
+    padding-top: 15em;
+    padding-left: 5em;
+  } */ */

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+ }
+ 
+ body {
+   min-height: 100vh;
+   width: 100%;
+ }
+  
+ header {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ nav {
+   display: flex;
+   flex-direction: row;
+   gap: 11.5em;
+   padding-left: 5em;
+ }
+/* how do i space out my navigation bar
+i dont know if there is a problem because 
+they are images */
+
+ .paraone {
+  color: white;
+  font: 1.563em Broadsheet;
+  text-align: justify;
+  padding-top: 0em;
+  padding-left: 10em;
+  padding-right: 30em;
+  column-count: 2;
+  column-gap: 30px;
+  column-width: 2em;
+  column-rule-style: double;
+  column-rule-width: .25em;
+}
+
+
+/* .paratwo {
+  color: white;
+  font: 1.563em Broadsheet;
+   padding-left: 10em;
+   padding-right: 50em;
+   text-align: justify; */
+
+ .community2color {
+  padding-top: -30%;
+   padding-left: 70%;
+   background-image: url(community2color);
+   background-position: 50%;
+   background-attachment: absolute;
+}
+
+
+ /* img {
+   width: 25%;
+ }
+ .paraone {
+  color: white;
+  font: 1.563em Broadsheet;
+  padding-left: 10em;
+  padding-right: 50em;
+  text-align: justify;
+  padding-top: .3em;
+}
+
+.paratwo {
+  color: white;
+  font: 1.563em Broadsheet;
+   padding-left: 10em;
+   padding-right: 50em;
+   text-align: justify;
+}
+ .community2color {
+   min-height: 100%;
+   width: 110%;
+   padding-top: 15em;
+   padding-left: 50em;
+ } */
+
+ /* spend some time making your root folder organized and get folders for each page.  */
+ 
+ 
+ /*  apply the same principal for the rest of the html elements */
