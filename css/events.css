@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ .vl{
+  top: 74em;
+  border-left: 6px double white;
+  height: 95em;
+  position: absolute;
+  left: 50%;
+}
+.vltwo {
+  top: 109;
+  border-left: 6px double white;
+  height: 97em;
+  position: absolute;
+  left: 50%;
+}
+.vlthree {
+  top: 349em;
+  border-left: 6px double white;
+  height: 110em;
+  position: absolute;
+  left: 50%;
+}  
+ body {
+   min-height: 100vh;
+   width: 100%;
+   background-color: black;
+ }
+
+ header {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ nav {
+  display: flex;
+  flex-direction: row;
+  gap: 11.5em;
+  padding-left: 5em;
+}
+
+/* Verticle line wont move down with padding
+how do make multiple veticle lines */
+
+/* Day one ROW=LEFT*/
+.row {
+  text-align: center; 
+}
+
+.column {
+  color: #FFFFFF;
+  text-align: center; 
+  float: left;
+  width: 50%;
+}
+
+
+/* day two COLUMN=LEFT*/
+
+.rowtwo {
+  color: #FFFFFF;
+  float: left;
+  text-align: center;
+  padding
+}
+
+.columntwo {
+  color: #FFFFFF;
+  text-align: center; 
+  float: right;
+  width: 50%;
+  padding: 0em;
+}
+
+/* Day Three ROW=LEFT */
+
+.rowthree {
+  padding-top: 0em;
+  padding-left: 0em;
+  color: #FFFFFF;
+  text-align: center 
+}
+.columnthree {
+  color: #FFFFFF;
+  text-align: center; 
+  float: left;
+  width: 50%;
+  padding: 20px;
+  top: 20em;
+}
+/* days one two three */
+h1 {
+  font: 7em Juniper Std;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+/* dates 04.22, 04.23 04.24 */
+h2 {
+  font: 3em Juniper Std;
+  color: rgb(127, 167, 53);
+  text-align: center;
+}
+
+/* Line up and booths */
+h3 {
+  font: 4em Juniper Std;
+  color: rgb(127, 167, 53);
+}
+
+/* booth name */
+h4 {
+  color: white;
+  text-align: center;
+  font: 2.5em Gravesend Sans;
+  padding-top: 2.5em
+}
+
+/* times */
+h5 {
+  color: rgb(127, 167, 53);
+  font: 2em Juniper Std;
+  text-align: center;
+  padding-top: 1.2em;
+}
+
+h6 {
+
+}
+/* line up list */
+ul {
+  padding: .5em;
+  font: 3em Gravesend Sans;
+}
+/* booth description */
+p {
+  font: 2em Broadsheet;
+  text-align: justify;
+  color: #FFFFFF; 
+  padding: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+}
+
